@@ -1,4 +1,4 @@
-package com.yongjincompany.mvvmshoppinglistapp
+package com.yongjincompany.mvvmshoppinglistapp.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
