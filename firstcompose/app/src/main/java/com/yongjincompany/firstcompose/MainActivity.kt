@@ -14,12 +14,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            FirstcomposeTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
-                }
-            }
+            Greeting("Yongjin")
         }
     }
 }
@@ -32,7 +27,5 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    FirstcomposeTheme {
-        Greeting("Android")
-    }
+    Greeting("kid")
 }
