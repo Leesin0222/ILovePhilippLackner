@@ -7,7 +7,7 @@ data class DefinitionDto(
     val definition: String,
     val synonyms: List<String>
 ) {
-    fun toDeginition(): Definition {
+    fun toDefinition(): Definition {
         return Definition(
             antonyms = antonyms,
             definition = definition,
