@@ -1,0 +1,3 @@
+package com.yongjincompany.cleanarchitecturedictionary.feature_dictionary.data.remote.dto
+
+class Phonetic
